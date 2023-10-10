@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h4>Create Account</h4>
+      </div>
+      
+      <form action="" class="form" id="form">
+        <div class="form-control">
+          <label>Username</label>
+          <input type="text" placeholder="Olayinka123" id="username">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        
+        <div class="form-control">
+          <label>Email</label>
+          <input type="email" placeholder="olayinka.onas123@gmail.com" id="email">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        
+        <div class="form-control">
+          <label>Password</label>
+          <input type="password" placeholder="password" id="password">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small class="error">Error Message</small>
+        </div>
+        
+        <div class="form-control">
+          <label>Confirm Password</label>
+          <input type="password" placeholder="confirm your password" id="password2">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Message</small>
+        </div>
+        
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
